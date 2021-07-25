@@ -1,0 +1,102 @@
+
+head
+{
+  text-align: center;
+}
+.container
+{
+    display: grid;
+    height:70%;
+    width:70%;
+    grid-gap:2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    border:2px solid black;
+    position: relative;
+  }
+ 
+  .Cell {
+    color: black;
+    font-size: 2rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   }
+ 
+
+  h1{
+      color: white;
+      text-align: center;
+     }
+
+  body 
+  {
+      display:flex;
+      align-content: center;
+      justify-content: center;
+      background-color: black ;
+  }
+  
+  .work
+  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50.98%;
+    height:70%;
+    background-color: gray;
+    flex-direction: column;
+    position:absolute;
+    top:70px;
+  }
+
+  .newGame{
+
+    justify-content: center;
+    background-color: whiteS;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-left:5px;
+    padding-right:10px;
+     size: 50px; 
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    border: 1px solid black;
+    
+
+}
+
+.scoreboard
+{
+    margin-bottom: 10px;
+    background-color: azure;
+}
+
+.score{
+    margin-right: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.Mscore{
+    margin-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.gameover{
+    height: 3vh;
+    width: 500px;
+    background-color: rgb(0, 214, 214);
+    text-align: center;
+}
+
+
+  
+  
+  
+ 
